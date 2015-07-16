@@ -328,17 +328,9 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
-		144C97B8197D37F80026D426 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		147EF64D19684097000D2E7F = {
 			isa = PBXGroup;
 			children = (
-				144C97B8197D37F80026D426 /* Resources */,
 				14F494FC196B8E5900C743FB /* genius-x.h */,
 				14F49461196B8D7B00C743FB /* genius */,
 				144C978A197D2C690026D426 /* geniusx iOS Tests */,
@@ -856,6 +848,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dev CGM (V8RJ49QGC3)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -872,13 +865,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tinywu/Downloads/Xcode_6.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../cocos2d-x",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "2ad7ce57-297a-4f9d-a46d-08f6ddd7f7f7";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../libs/cocos2d-x/ $(SRCROOT)/../../../libs $(SRCROOT)/../../../libs/cocos2d-x/cocos $(SRCROOT)/../../../libs/cocos2d-x/cocos/base $(SRCROOT)/../../../libs/cocos2d-x/cocos/2d $(SRCROOT)/../../../libs/cocos2d-x/deprecated $(SRCROOT)/../../../libs/cocos2d-x/physics $(SRCROOT)/../../../libs/cocos2d-x/math/kazmath $(SRCROOT)/../../../libs/cocos2d-x/2d/platform $(SRCROOT)/../../../libs/cocos2d-x/audio/include $(SRCROOT)/../../../libs/cocos2d-x/editor-support $(SRCROOT)/../../../libs/cocos2d-x/editor-support/spine $(SRCROOT)/../../../libs/cocos2d-x/editor-support/cocostudio $(SRCROOT)/../../../libs/cocos2d-x/editor-support/cocosbuilder $(SRCROOT)/../../../libs/cocos2d-x/cocos/ui $(SRCROOT)/../../../libs/cocos2d-x/cocos/storage $(SRCROOT)/../../../libs/cocos2d-x/extensions/GUI/CCScrollView $(SRCROOT)/../../../libs/cocos2d-x/extensions $(SRCROOT)/../../../libs/cocos2d-x/external $(SRCROOT)/../../../libs/cocos2d-x/external/chipmunk/include/chipmunk $(SRCROOT)/../../../libs/cocos2d-x/external/lua $(SRCROOT)/../../../libs/cocos2d-x/external/lua/luajit/include $(SRCROOT)/../../../libs/cocos2d-x/external/lua/tolua";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../cocos2d-x $(SRCROOT)/../../libs $(SRCROOT)/../../cocos2d-x/cocos $(SRCROOT)/../../cocos2d-x/cocos/base $(SRCROOT)/../../cocos2d-x/cocos/2d $(SRCROOT)/../../cocos2d-x/deprecated $(SRCROOT)/../../cocos2d-x/physics $(SRCROOT)/../../cocos2d-x/math/kazmath $(SRCROOT)/../../cocos2d-x/2d/platform $(SRCROOT)/../../cocos2d-x/audio/include $(SRCROOT)/../../cocos2d-x/editor-support $(SRCROOT)/../../cocos2d-x/editor-support/spine $(SRCROOT)/../../cocos2d-x/editor-support/cocostudio $(SRCROOT)/../../cocos2d-x/editor-support/cocosbuilder $(SRCROOT)/../../cocos2d-x/cocos/ui $(SRCROOT)/../../cocos2d-x/cocos/storage $(SRCROOT)/../../cocos2d-x/extensions/GUI/CCScrollView $(SRCROOT)/../../cocos2d-x/extensions $(SRCROOT)/../../cocos2d-x/external $(SRCROOT)/../../cocos2d-x/external/chipmunk/include/chipmunk $(SRCROOT)/../../cocos2d-x/external/lua $(SRCROOT)/../../cocos2d-x/external/lua/luajit/include $(SRCROOT)/../../cocos2d-x/external/lua/tolua";
 				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Debug;
@@ -900,6 +899,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dev CGM (V8RJ49QGC3)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = c99;
@@ -915,12 +915,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tinywu/Downloads/Xcode_6.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../cocos2d-x",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PROVISIONING_PROFILE = "2ad7ce57-297a-4f9d-a46d-08f6ddd7f7f7";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
-				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../libs/cocos2d-x/ $(SRCROOT)/../../../libs $(SRCROOT)/../../../libs/cocos2d-x/cocos $(SRCROOT)/../../../libs/cocos2d-x/cocos/base $(SRCROOT)/../../../libs/cocos2d-x/cocos/2d $(SRCROOT)/../../../libs/cocos2d-x/deprecated $(SRCROOT)/../../../libs/cocos2d-x/physics $(SRCROOT)/../../../libs/cocos2d-x/math/kazmath $(SRCROOT)/../../../libs/cocos2d-x/2d/platform $(SRCROOT)/../../../libs/cocos2d-x/audio/include $(SRCROOT)/../../../libs/cocos2d-x/editor-support $(SRCROOT)/../../../libs/cocos2d-x/editor-support/spine $(SRCROOT)/../../../libs/cocos2d-x/editor-support/cocostudio $(SRCROOT)/../../../libs/cocos2d-x/editor-support/cocosbuilder $(SRCROOT)/../../../libs/cocos2d-x/cocos/ui $(SRCROOT)/../../../libs/cocos2d-x/cocos/storage $(SRCROOT)/../../../libs/cocos2d-x/extensions/GUI/CCScrollView $(SRCROOT)/../../../libs/cocos2d-x/extensions $(SRCROOT)/../../../libs/cocos2d-x/external $(SRCROOT)/../../../libs/cocos2d-x/external/chipmunk/include/chipmunk $(SRCROOT)/../../../libs/cocos2d-x/external/lua $(SRCROOT)/../../../libs/cocos2d-x/external/lua/luajit/include $(SRCROOT)/../../../libs/cocos2d-x/external/lua/tolua";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../cocos2d-x $(SRCROOT)/../../libs $(SRCROOT)/../../cocos2d-x/cocos $(SRCROOT)/../../cocos2d-x/cocos/base $(SRCROOT)/../../cocos2d-x/cocos/2d $(SRCROOT)/../../cocos2d-x/deprecated $(SRCROOT)/../../cocos2d-x/physics $(SRCROOT)/../../cocos2d-x/math/kazmath $(SRCROOT)/../../cocos2d-x/2d/platform $(SRCROOT)/../../cocos2d-x/audio/include $(SRCROOT)/../../cocos2d-x/editor-support $(SRCROOT)/../../cocos2d-x/editor-support/spine $(SRCROOT)/../../cocos2d-x/editor-support/cocostudio $(SRCROOT)/../../cocos2d-x/editor-support/cocosbuilder $(SRCROOT)/../../cocos2d-x/cocos/ui $(SRCROOT)/../../cocos2d-x/cocos/storage $(SRCROOT)/../../cocos2d-x/extensions/GUI/CCScrollView $(SRCROOT)/../../cocos2d-x/extensions $(SRCROOT)/../../cocos2d-x/external $(SRCROOT)/../../cocos2d-x/external/chipmunk/include/chipmunk $(SRCROOT)/../../cocos2d-x/external/lua $(SRCROOT)/../../cocos2d-x/external/lua/luajit/include $(SRCROOT)/../../cocos2d-x/external/lua/tolua";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "i386 x86_64";
 			};
@@ -932,6 +938,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dev CGM (V8RJ49QGC3)";
 				DSTROOT = /tmp/geniusx_iOS.dst;
 				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -942,7 +949,10 @@
 				);
 				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"/Users/tinywu/featureDemmo/cocos2d-x-super-framework/libs/cocos2d-x/build/build/Debug-iphoneos",
+					"/Users/tinywu/featureDemmo/cocos2d-x-super-framework/libs/cocos2d-x/cocos/scripting/lua-bindings/proj.ios_mac/build/Debug-iphoneos",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"/Users/tinywu/featureDemmo/cocos2d-x-super-framework/libs/cocos2d-x/build/build/Debug-iphoneos",
@@ -951,11 +961,12 @@
 				OTHER_LDFLAGS = "";
 				"OTHER_LDFLAGS[sdk=iphoneos7.1]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2ad7ce57-297a-4f9d-a46d-08f6ddd7f7f7";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../../libs/cocos2d-x/cocos/platform/ios";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../libs/cocos2d-x/cocos/platform/ios";
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
@@ -966,6 +977,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dev CGM (V8RJ49QGC3)";
 				DSTROOT = /tmp/geniusx_iOS.dst;
 				ENABLE_NS_ASSERTIONS = YES;
 				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
@@ -978,7 +990,10 @@
 				);
 				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = (
+					"/Users/tinywu/featureDemmo/cocos2d-x-super-framework/libs/cocos2d-x/build/build/Debug-iphoneos",
+					"/Users/tinywu/featureDemmo/cocos2d-x-super-framework/libs/cocos2d-x/cocos/scripting/lua-bindings/proj.ios_mac/build/Debug-iphoneos",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"/Users/tinywu/featureDemmo/cocos2d-x-super-framework/libs/cocos2d-x/build/build/Debug-iphoneos",
@@ -987,11 +1002,12 @@
 				OTHER_LDFLAGS = "";
 				"OTHER_LDFLAGS[sdk=iphoneos7.1]" = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2ad7ce57-297a-4f9d-a46d-08f6ddd7f7f7";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../../libs/cocos2d-x/cocos/platform/ios";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../../libs/cocos2d-x/cocos/platform/ios";
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
